@@ -1,0 +1,456 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+hr {
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the hr */
+    background-color: #ccc; /* Choose a color for the hr */
+    margin: 20px 0; /* Adjust margin top and bottom */
+}
+
+/*SIDEBAR*/
+#sidebar{
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 50px;
+    width: 5vw;
+    height: 90vh;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    background: linear-gradient(#B793C9, #A2BEDC);
+    opacity: 80%;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+}
+    .logo{
+        margin-top: 20px;
+    }
+    .sideIcon{
+        padding-top: 50px;
+        margin-left: 6px;
+    }
+    .sideIcon img{
+        height: 70%;
+        width: 70%;
+    }
+
+/*BACKGROUND*/
+#wrapper{
+    height: 101%;
+    width: 100%;
+    flex-wrap: wrap;
+    background: linear-gradient(#4E499E, #042440);
+}
+#mainBG{
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+/*HEADER*/
+.title{
+    padding-top: 20px;
+    margin-bottom: -15px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+    font-size: 70px;
+}
+#header p{
+    color: #A2BEDC;
+    opacity: 70%;
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+/* SEARCH */
+.search {
+    justify-content: flex-start;
+    width: 100%;
+    margin-top:20px;
+    padding-left: 65%;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    margin-right: 5px;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 6px 10px;
+    background: #B793C9;
+    color: rgb(51, 44, 248);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.search button:hover {
+    background: #D26B9D;
+    color: white;
+}
+.search button:active{
+    background: #953a66;
+    color: white;
+}
+.search img{
+    width: 15px;
+    height: auto;
+}
+
+/* LIBRARY */
+#library h1{
+    padding-top: 25px;
+    margin-left: 10%;
+    margin-bottom: -10px;
+    font-size: 60px;
+    float: left;
+    line-height: 50px;
+    background-image: linear-gradient(#A9DFE2, #FDB3CA);
+    color: transparent;
+    background-clip: text;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+}
+
+/*Book Of The Day*/
+#bookOfDDay{
+    margin-left: 50px;
+}
+.DayDeets{
+    width: 50%;
+}
+.DayDeets h2{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#FDB3CA, #A9DFE2);
+    font-size: 50px;
+}
+.DayDeets h3{
+    color: white;
+    font-size: 30px;
+}
+.DayDeets h4{
+    color: #A2BEDC;
+}
+.DayDeets p{
+    color: #e2e9f1;
+    font-family: "Waiting for the Sunrise", cursive;
+    font-weight: 100;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.dDayBook img{
+    width: 70%;
+    height: auto;
+    box-shadow: 10px 10px 12px rgba(251, 207, 111, 0.737);
+    border-radius: 10px;
+    margin-left: 3rem;
+}
+.checked{
+    color: gold;
+}
+.bigBookStars{
+    padding: 0px 130px 0px 130px;
+}
+
+/* Featured & Authors */
+#featuresAndAuthors{
+    margin-left: 10px;
+    margin-right: 80px;
+}
+#features{
+    float: left;
+    margin-right: 25px;
+}
+#features h3{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#FDB3CA, #A9DFE2);
+    font-size: 40px;
+}
+
+.br1 p{
+    color: gold;
+    font-weight: 100;
+    font-size: 20px;
+    margin: -1rem 4rem 0rem 4rem;
+}
+.br1 img{
+    width: 150px;
+    height: 230px;
+    margin: 10px;
+    opacity: 85%;
+}
+.br2 p{
+    margin: -1rem 4rem 0rem 4rem;
+    color: gold;
+    font-weight: 100;
+    font-size: 20px;
+}
+.br2 img{
+    width: 150px;
+    height: 230px;
+    margin: 10px;
+    opacity: 85%;
+}
+.br1 img:hover, .br2 img:hover{
+    opacity: 100%;
+    box-shadow: 5px 5px 7px rgba(232, 232, 232, 0.737);
+}
+
+.vL{
+    float: left;
+    border-left: 2px solid #B793C9;
+    height: 600px;
+}
+
+#authors{
+    float: right;
+    margin-left: 25px;
+}
+#authors h3{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#FDB3CA, #A9DFE2);
+    font-size: 40px;
+}
+#authors img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 85%;
+}
+#authors img:hover{
+    opacity: 100%;
+    box-shadow: 5px 5px 7px rgba(232, 232, 232, 0.737);
+}
+#authors h5{
+    color: #e2e9f1;
+    font-weight: 100;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#authors li{
+    margin-left: 20px;
+    color: #e2e9f181;
+    font-weight: 100;
+    text-align: justify;
+    font-size: 12px;
+}
+#authors li:hover{
+    color: #e2e9f1;
+}
+
+/* Latest Release */
+#latest h2{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#FDB3CA, #A9DFE2);
+    font-size: 50px;
+}
+#latest p{
+    font-size: 20px;
+    font-weight: 20;
+    color: white;
+    opacity: 80%;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #D26B9D;
+  opacity: 70%;
+  text-decoration: none;
+}
+
+.mySlides img{
+    opacity: 60%;
+    border-radius: 20px;
+}
+
+.text h3{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    padding-bottom: 20px;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(232, 232, 232, 0.737);
+}
+.text h6{
+  color: white;
+  opacity: 80%;
+  font-size: 25px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.text p{
+    color: white;
+    opacity: 80%;
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: justify;
+    padding: 20px 60px 100px 50px;
+    text-shadow: 2px 2px 5px rgba(19, 1, 40, 0.824);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*RECOMMENDATIONS*/
+#reco h2{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#FDB3CA, #A9DFE2);
+    font-size: 50px;
+    text-align: center;
+}
+.recoBooks img{
+    width: 75%;
+    height: auto;
+    margin: 1vh 1vw 1vh 10vw;
+    border-radius: 20px;
+}
+    .recoBooks img:hover{
+        box-shadow: 5px 5px 5px rgba(180, 143, 210, 0.824);
+    }
+
+/* NEW TASTE / NEW BOOKS */
+#newBooks h2{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#FDB3CA, #A9DFE2);
+    font-size: 50px;
+    text-align: center;
+}
+    #newBooks h3{
+        color: white;
+        text-align: center;
+        opacity: 70%;
+    }
+        #newBooks h6{
+            color: white;
+            text-align: center;
+            opacity: 60%;
+            font-size: 15px;
+        }
+
+.carousel{
+    width: 90%;
+    height: 35rem;
+    margin: 1rem 3rem 1rem 3rem;
+}
+
+    .carousel-inner img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+/* TELEPORT TO CATEGORY */
+#goToCat h3 a{
+    color: rgba(255, 255, 255, 0.751);
+    text-align: center;
+    opacity: 60%;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5rem;
+}
+
+/*FOOTER*/
+#footer{
+    text-align: center;
+}
+.title2{
+    padding-top: 20px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 50px;
+}
+.info{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 20px;
+}
+#footer p{
+    color: #A2BEDC;
+    opacity: 70%;
+    font-size: 16px;
+    padding-left: 3px;
+}

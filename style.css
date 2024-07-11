@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*SIDEBAR*/
+#sidebar{
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 50px;
+    width: 5vw;
+    height: 90vh;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    background: linear-gradient(#B793C9, #A2BEDC);
+    opacity: 80%;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+}
+    .logo{
+        margin-top: 20px;
+    }
+    .sideIcon{
+        padding-top: 50px;
+        margin-left: 6px;
+    }
+    .sideIcon img{
+        height: 70%;
+        width: 70%;
+    }
+
+/*BACKGROUND*/
+#wrapper{
+    height: 101%;
+    width: 100%;
+    flex-wrap: wrap;
+    background: linear-gradient(#4E499E, #042440);
+}
+#mainBG{
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+/*HEADER*/
+.title{
+    padding-top: 20px;
+    margin-bottom: -15px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+    font-size: 70px;
+}
+#header p{
+    color: #A2BEDC;
+    opacity: 70%;
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+/*NAVIGATION*/
+#navigation a{
+    font-size: 22px;
+    color: #D26B9D;
+    padding-right: 100px;
+    text-decoration: none;
+    padding-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#navigation a:hover{
+    color: #B793C9;
+    text-shadow: white;
+}
+
+/*HOME BOOKS*/
+.quote1, .quote1 a{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #A2BEDC;
+    text-decoration: none;
+}
+#homeBooks{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bigBook{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+.checked{
+    color: gold;
+}
+.mainBook{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    transition: opacity 0.2s ease;
+}
+.bookDeets{
+    opacity: 0%;
+    transition: opacity 0.5s ease;
+}
+.mainBook:hover img{
+    opacity: 40%;
+
+}
+.mainBook:hover .bookDeets{
+    opacity: 100%;
+}
+.booktitle{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color:white;
+    text-shadow: 5px 5px 5px #042440;
+}
+.b1p{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: white;
+    text-shadow: 3px 3px 3px #042440;
+}
+
+/*FOOTER*/
+#footer{
+    text-align: center;
+}
+.title2{
+    padding-top: 20px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 50px;
+}
+.info{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 20px;
+}
+#footer p{
+    color: #A2BEDC;
+    opacity: 70%;
+    font-size: 16px;
+    padding-left: 3px;
+}

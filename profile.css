@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*SIDEBAR*/
+#sidebar{
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 50px;
+    width: 5vw;
+    height: 90vh;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    background: linear-gradient(#B793C9, #A2BEDC);
+    opacity: 80%;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+}
+    .logo{
+        margin-top: 20px;
+    }
+    .sideIcon{
+        padding-top: 50px;
+        margin-left: 6px;
+    }
+    .sideIcon img{
+        height: 70%;
+        width: 70%;
+    }
+
+/*BACKGROUND*/
+#wrapper{
+    height: 101%;
+    width: 100%;
+    flex-wrap: wrap;
+    background: linear-gradient(#4E499E, #042440);
+}
+#mainBG{
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+/*HEADER*/
+.title{
+    padding-top: 20px;
+    margin-bottom: -15px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+    font-size: 70px;
+}
+#header p{
+    color: #A2BEDC;
+    opacity: 70%;
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+/*NAVIGATION*/
+#navigation a{
+    font-size: 22px;
+    color: #D26B9D;
+    padding-right: 100px;
+    text-decoration: none;
+    padding-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#navigation a:hover{
+    color: #B793C9;
+    text-shadow: white;
+}
+
+/* PROFILE */
+#profile{
+    margin: 2rem 5rem 2rem 5rem;
+}
+#profile h1{
+   padding-top: 25px;
+    margin-bottom: -10px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-image: linear-gradient(#A9DFE2, #FDB3CA);
+    color: transparent;
+    background-clip: text;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.642);
+}
+
+.profilepic img{
+    width: 10rem;
+    height: auto;
+    border-radius: 5rem;
+    float: left;
+}
+.profiledeets{
+    float: left;
+    color: white;
+    margin: 1rem 3rem 1rem 3rem;
+}
+.name{
+    font-size: 2rem;
+}
+.id, .age, .prefBooks {
+    font-size: 1rem;
+    font-family: "Waiting for the Sunrise", cursive;
+    opacity: 70%;
+}
+.joined{
+    opacity: 70%;
+    font-size: 15px;
+}
+/*FOOTER*/
+#footer{
+    text-align: center;
+}
+.title2{
+    padding-top: 20px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 50px;
+}
+.info{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 20px;
+}
+#footer p{
+    color: #A2BEDC;
+    opacity: 70%;
+    font-size: 16px;
+    padding-left: 3px;
+}
